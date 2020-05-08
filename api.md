@@ -735,7 +735,7 @@ An ISV partner gets to use Omni Connect which allows you to fully support your m
 **Creating a sub-merchant account**
 - Create the merchant with [POST merchant](https://fattmerchant.docs.apiary.io/#reference/0/teams/create-a-merchant) and your jwt token
 
-- Then, upsert the merchant's registration: [PUT merchant/{id}/registration](https://fattmerchant.docs.apiary.io/#reference/0/teams/update-merchant-registration-data) 
+- Then, upsert the merchant's registration: [PUT merchant/{id}/registration](https://fattmerchant.docs.apiary.io/#reference/0/teams/update-merchant-registration-data)
     - This adds additional business information used in underwriting
 
 - To add supporting documents to the merchant's registration(optional): [POST merchant/{id}/registration/file](https://fattmerchant.docs.apiary.io/#reference/0/teams/add-file-to-merchant-registration)
