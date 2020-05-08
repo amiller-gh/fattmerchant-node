@@ -2,7 +2,7 @@
 
 Auto-generated Fattmerchant REST API bindings for Node.js with Typescript types.
 
-See [https://fattmerchant.docs.apiary.io] for full API documentation.
+See [https://fattmerchant.docs.apiary.io]() for full API documentation.
 
 ## Build
 
