@@ -1,0 +1,20 @@
+{
+  "name": "fattmerchant",
+  "version": "0.0.1",
+  "description": "Fattmerchant API in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update": "apib2swagger -i api.md -o api.json && node ./fix.js && openapi-generator-cli generate -i ./api.json -g typescript-node -o ./generated && yarn build",
+    "build": "tsc -p tsconfig.json"
+  },
+  "author": "Adam Miller <adam@universe.app>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "8",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
